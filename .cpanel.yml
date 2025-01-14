@@ -6,4 +6,4 @@ deployment:
 
   - export DEPLOYPATH=/home/proztptt/public_html/repos/testrepo
 
-  - /bin/rsync -avz --delete --exclude=".git" --exclude="*.swp"  ./ $DEPLOYPATH
+  - /bin/cp * $DEPLOYPATH

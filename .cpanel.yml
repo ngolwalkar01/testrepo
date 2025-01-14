@@ -4,6 +4,6 @@ deployment:
 
   tasks:
 
-  - export DEPLOYPATH=/home/proztptt/public_html/repos/testrepo
+  - export DEPLOYPATH=/home/proztptt/public_html/repos/trepo
 
   - /bin/cp * $DEPLOYPATH
